@@ -1,0 +1,260 @@
+/* NAV*/
+/* NAV*/
+
+.bg-fondo {
+    background-image: url(../img/fondo2.png);
+    height: 144px;
+}
+.container-fluid {
+    background-color: rgba(255, 255, 255, 0.8);
+    height: 144px;
+    margin-top: 0px;
+}
+
+.nav__imagen {
+    box-shadow: 5px 8px 8px 5px rgb(37, 51, 68,0.2)
+}
+/* lista y buscador */
+.navbar-collapse {
+    display: flex;
+    flex-direction:column-reverse;
+}
+/* lista */
+
+.nav-link {color:rgb(37, 51, 68, 0.7); 
+  font-family: 'Ubuntu', sans-serif;
+  text-decoration:none;
+  font-size: 1.25rem;
+  font-weight: 600;}
+
+ .active { text-decoration: underline;
+  color:rgb(37, 51, 68);}
+
+  .nav-link:hover {
+    color:rgb(37, 51, 68);
+  text-decoration:none;
+  }
+
+
+/*  buscador */
+.form-control { 
+    width: 335px;
+    font-family: 'Ubuntu', sans-serif;
+    border-color:rgb(37, 51, 68);
+}
+
+.btn-outline-success {
+  border-color:rgb(37, 51, 68);
+  color:rgb(37, 51, 68);
+   }
+.btn-outline-success:hover {
+ background-color: rgb(37, 51, 68);
+ border-color:rgb(37, 51, 68);
+}
+
+/* MAIN*/
+/* MAIN*/
+
+h1 { 
+    color: rgb(255, 255, 255);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700
+  }
+.t2 { 
+    background-color:rgb(37, 51, 68, 0.98);
+    text-align: center;
+}
+
+h2 {
+    color:rgb(37, 51, 68);
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
+
+.novedades__sectionTitulo {
+    background-color:rgb(255, 102, 2, 0.07); 
+}
+
+.carousel-item {
+    display: inline-block
+}
+
+/*card kaiak*/
+
+section figure {
+    text-align: center;
+  }
+  .novedades__section {
+      background-color:rgba(125, 220, 175, 0.05);
+      margin: 20px;
+      display: flex;
+      justify-content: space-around;
+  }
+  
+  .producto__imagenes {
+      margin:10px 20px;
+      padding: 10px 10px 0px 10px;
+      width: 50%;
+      position: relative;
+  }  
+  
+  .novedades__sectionProducto {
+      margin:5px 30px 5px 30px;
+      color: #253344;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1rem;
+      font-weight: 600
+  }
+  
+  .precio {
+    margin:5px 30px 5px 30px;
+      color: #253344;
+      font-family: 'Ubuntu', sans-serif;
+      font-size: 1rem;
+      font-weight: 400}
+  
+  .sectionProducto_button {
+    background-color: rgba(125, 220, 175, 0.1);
+    width: 100px;
+    border:none;
+    color: #253344;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 1rem;
+    font-weight: 600}
+  
+    .sectionProducto_button:hover {
+      border-style: ridge;
+      border-color: #253344;
+      background-color: #253344;
+      color: white;
+      transition: 0.5s;
+      cursor: pointer
+  
+    }
+/*banner index*/
+    .banner_2 {
+        width:100%;
+      height:auto;
+        grid-area: bn2;
+      }
+    
+      .banner_3 {
+        width:100%;
+      height: min-content;
+        grid-area: bn3;
+      }
+
+      h3 {
+        color: rgb(37, 51, 68);
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 1.5rem;
+        font-weight: 600}
+.tbnn {
+    text-decoration: underline;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;}
+
+      
+    /*footer*/
+
+    .logo__redes {
+        position: relative;
+        display: flex;
+        margin-right: 20px;
+       }
+      
+      .rrhh{ 
+        background-color: rgb(37, 51, 68);
+        height: 80px;
+        display: flex;
+        flex-wrap: nowrap;
+        align-items: center;
+        justify-content:flex-end;
+        grid-area: pie;
+      }
+      
+      .rrhh__titulo {
+        position: relative;
+        display: flex;
+      }
+      
+      footer h4 {
+        color:white
+      }
+
+
+    /*PRODUCTOS*/
+/*PRODUCTOS*/
+
+/*main*/
+.categorias {
+    display: flex;
+    flex-wrap:nowrap;
+    flex-direction: column;
+    grid-area: catp;
+  }
+    
+  .cards_img {
+    display:flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+     
+  }
+  
+  .card_categoria {
+    background-color:rgba(125, 220, 175, 0.05);
+    border-radius: 20px;
+    padding:20px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width:43%
+     }
+  
+  .categoria__img {
+    width: 90%;
+    display: flex;
+    padding-top: 20px;
+      
+  } 
+  
+  .card_categoria:hover {
+    width: 48%;
+    border: 3px ridge #253344;
+  }
+  
+  .titlec {
+    color: #253344;
+      font-family: 'Ubuntu', sans-serif;
+      text-decoration: none;
+      font-size: 1.3rem;
+      font-weight: 600;
+      display: flex;
+     
+         
+  }
+  
+  .contenedor_prod {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows:auto;
+    grid-template-areas:
+    "nav nav"
+    "catp catp"
+    "bn bn"
+    "pie pie";
+  }
+  
+  .bnconsu {
+  grid-area: bn;
+  width:100%;
+  justify-content: space-between;}
+  
+  
+  
